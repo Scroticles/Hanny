@@ -112,3 +112,25 @@ button.letter:disabled {
     font-weight: bold;
     margin-top: 10px;
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.button-container button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.button-container button:hover {
+    background-color: #ffcc00;
+    transform: scale(1.1);
+}
